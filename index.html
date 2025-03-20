@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <!-- This is my header -->
+    <header>
+      <!-- This is the navbar -->
+      <nav class="navBar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- The main starts here -->
+    <main>
+      <!-- The home section starts here -->
+      <section id="home">
+        <h1>Welcome to my Portfolio</h1>
+        <p>
+          This section contains a brief introduction of who I am and what I do.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde totam
+          fugit exercitationem cupiditate repellendus expedita doloribus veniam,
+          inventore soluta modi praesentium saepe magnam! Asperiores
+          voluptatibus quis eaque neque magnam dolores.
+        </p>
+      </section>
+      <!-- The home section ends here -->
+      <!-- About section starts here-->
+      <section id="about">
+        <h2>About me</h2>
+        <div class="flex">
+          <figure class="myPic">
+            <img
+              src="https://th.bing.com/th/id/R.859aa9fe28156f9e0370ae4d891c45f1?rik=RR%2fjjJZ2esHMlQ&pid=ImgRaw&r=0"
+              width="150px "
+              alt="Jenna Ortega pic"
+            />
+          </figure>
+          <p>
+            Hi, I am <strong>Funmilayo</strong>, a
+            <strong>Full-stack Developer</strong> in the making. Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit. Veniam laboriosam
+            ipsam molestiae numquam, nam alias quibusdam provident doloribus.
+            Pariatur esse voluptates quos est eos quibusdam ratione corrupti
+            quod provident quae? Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Non, sequi.
+          </p>
+        </div>
+      </section>
+      <!-- About section ends here-->
+
+      <!-- Work section starts here -->
+      <section id="work">
+        <h2>My Work</h2>
+        <ul>
+          <li>Html</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ul>
+        <h3>Learn Full-stack Development at GMC</h3>
+        <div class="video_container">
+          <a
+            title="Visit Gomycode website"
+            href="https://gomycode.com/ng/"
+            target="_blank"
+          >
+            <video
+              class="dev_video"
+              controls
+              src="asset/video/Developers.mp4"
+              height="200px"
+              width="100%"
+            ></video>
+          </a>
+          <p>Aspiring Developers</p>
+        </div>
+      </section>
+      <!-- Work section ends here -->
+
+      <!-- Resume section starts here -->
+      <section id="resume">
+        <h2>My Resume</h2>
+        <dl>
+          <b><dt>Education</dt></b>
+          <dd>Bachelor's Degree in Animal Science</dd>
+          <dd>OAU, Ile-Ife, Osun State</dd>
+          <b><dt>Work experience</dt></b>
+          <dd>Student</dd>
+          <dd>Gomycode Academy</dd>
+        </dl>
+      </section>
+      <!-- Resume section ends here -->
+
+      <!-- Contact section starts here -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label>Your Name:</label> <br />
+          <input type="text" required /> <br /><br />
+          <label>Email:</label> <br />
+          <input type="email" required /><br /><br />
+          <label>Telephone: <span>(Optional)</span></label> <br />
+          <input type="tel" /> <br /><br />
+          <label>Gender</label>
+          <select name="" id="" required>
+            <option value="" selected disabled>Select your Gender</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="non-binary">Non-binary</option>
+          </select>
+        </form>
+      </section>
+      <!-- Contact section ends here -->
+    </main>
+    <!-- The main ends here -->
+    <!-- Footer starts here -->
+    <footer>
+      <p>&copy; 2025 My Portfolio. All rights Reserved</p>
+    </footer>
+    <!-- Footer ends here -->
+  </body>
+</html>
